@@ -1,56 +1,86 @@
-# Welcome to your Expo app 👋
+# Beyond — Career Discovery App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Your interests. Your future. Your Beyond.**
 
-## Get started
+Beyond is a student-focused career discovery app designed to help students explore career paths beyond the conventional choices. The goal is to make career exploration more accessible, engaging, and informative.
 
-1. Install dependencies
+## 🎯 Project Goal
+
+Many students are familiar with only a limited number of career options. Beyond aims to help them discover opportunities across different fields, understand their interests, and explore potential career paths.
+
+## ✨ Planned Features
+
+- **Career exploration:** Discover careers across different fields.
+- **Interest-based discovery:** Explore opportunities based on personal interests.
+- **Career information:** Learn about qualifications, courses, eligibility, and possible career pathways.
+- **Reliable sources:** Access trustworthy resources to learn more about careers.
+- **Saved careers:** Keep track of careers that interest you.
+
+*Beyond is currently in its early development stage. These features represent the project's intended direction and may not be implemented yet.*
+
+## 🛠️ Tech Stack
+
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+
+Additional technologies may be introduced as development progresses.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- Expo Go on an Android or iOS device
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Career-discovery
+   ```
+
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Start the Expo development server:
 
    ```bash
-   npx expo start
+   npx expo start --lan
    ```
 
-In the output, you'll find options to open the app in a
+5. Open the project using Expo Go on your phone.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Replace `YOUR_REPOSITORY_URL` with the HTTPS URL of this GitHub repository.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📍 Current Progress
 
-## Get a fresh project
+- [x] Initial Expo project setup
+- [x] Home screen
+- [x] Explore screen
+- [x] Navigation between screens
+- [x] Initial career category layout
+- [ ] Interactive career categories
+- [ ] Career catalogue and detailed career pages
+- [ ] Interest-based career discovery
+- [ ] Career information backed by reliable sources
 
-When you're ready, run:
+## 🌱 Project Status
 
-```bash
-npm run reset-project
-```
+Beyond is a work in progress, being developed incrementally as a student project. The focus is on building a useful, accessible, and student-friendly career discovery experience.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Built with curiosity and a belief that every student deserves to discover more possibilities.
